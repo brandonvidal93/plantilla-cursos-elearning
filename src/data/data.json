@@ -1,0 +1,62 @@
+{
+  "page0": {
+    "type"            : "initPage",
+    "units"           : 1,
+    "title"           : "Título curso",
+    "subTitle"        : "Subtítulo curso",
+    "instruction"      : "Instrucción curso",
+    "logo1"      : "",
+    "logo2"      : "",
+    "background": {
+      "bg"            : ""
+    },
+    "footer": {
+      "label"         : "Texto del pie de página"
+    }
+  },
+
+  "page1": {
+    "type"        : "guidePage",
+    "title"       : "Título página",	
+    "subTitle"    : "Subtítulo página",
+    "resources": {
+      "bg"        : ""
+    }
+  },
+
+  "page2": {
+    "type"        : "coursePage",
+    "title"       : "Título página",	
+    "subTitle"    : "Subtítulo página",
+    "resources": {
+      "bg"        : ""
+    }
+  },
+
+  "page3": {
+    "type"        : "guidePage",
+    "title"       : "Título página",	
+    "subTitle"    : "Subtítulo página",
+    "resources": {
+      "bg"        : ""
+    }
+  },
+
+  "page4": {
+    "type"        : "guidePage",
+    "title"       : "Título página",	
+    "subTitle"    : "Subtítulo página",
+    "resources": {
+      "bg"        : ""
+    }
+  },
+
+  "page5": {
+    "type"        : "guidePage",
+    "title"       : "Título página",	
+    "subTitle"    : "Subtítulo página",
+    "resources": {
+      "bg"        : ""
+    }
+  }
+}

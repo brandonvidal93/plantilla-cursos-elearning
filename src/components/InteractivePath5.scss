@@ -1,0 +1,98 @@
+@import "../resources/colors";
+@import "../resources/animation.scss";
+
+.InteractivePath5 {
+  height: 391px;
+  width: 509px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      background-color: transparent;
+    }
+  }
+
+  .bgItemGlobe {
+    z-index: 4;
+    height: 180px;
+    top: 258px;
+    left: 0;
+
+    .itemGlobe {
+      width: auto;
+      .buttonClose {
+        position: absolute;
+        background-color: transparent;
+        border-radius: 50%;
+        top: -15px;
+        left: -15px;
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid #085A3C;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 70px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 74px;
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid #BA0505;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 56px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 60px;
+      }
+    }
+  }
+}

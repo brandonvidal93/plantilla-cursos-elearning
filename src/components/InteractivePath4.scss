@@ -1,0 +1,107 @@
+ @import "../resources/colors";
+@import "../resources/animation.scss";
+
+.InteractivePath4 {
+  height: 225px;
+  width: 770px;
+
+  .circleItems {
+    position: absolute;
+
+    .circleButton {
+      background-color: transparent;
+    }
+  }
+
+  .bgItemGlobe {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;
+    height: 420px;
+
+    .itemGlobe {
+      box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      background-color: #F7F7F7;
+      border-radius: 15px;
+      border: 3px solid;
+      padding: 1em 2rem;
+
+      .buttonClose {
+        position: absolute;
+        background-color: transparent;
+        border-radius: 50%;
+        top: -15px;
+        right: -15px;
+        .iconButton {
+          color: red;
+          font-size: 2.3em;
+          transition: all .3s;
+        }
+
+        &:hover {
+          .iconButton {
+            color: #cf0000;
+          }
+        }
+      }
+    }
+
+    .trian-1 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid #085A3C;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 70px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 74px;
+      }
+    }
+
+    .trian-2 {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid #BA0505;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top: -20px;
+        left: 56px;
+      }
+      &:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 16px solid transparent;
+        border-bottom: 16px solid #F7F7F7;
+        border-right: 16px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 60px;
+      }
+    }
+  }
+}
