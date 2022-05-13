@@ -6,7 +6,7 @@ import './Content.scss'
 // IMPORTAR LOS COMPONENTES DE CADA PÁGINA
 import {
   Page0, Page1, Page2, Page3, Page4, Page5
-} from './pages/Pages';
+} from '../pages/Pages';
 
 class Content extends Component {
   showContent = () => {
