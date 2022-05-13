@@ -16,12 +16,12 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $titulo1;
+  color: $color1;
 }
 
 p, ul, ol, li, button, label {
   font-size: 0.9em;
-  color: $texto1;
+  color: $color2;
   line-height: 20px;
   font-weight: 300;
 }
@@ -241,87 +241,6 @@ button {
 .pL-5 { padding-left: 5rem!important }
 .pL-6 { padding-left: 6rem!important }
 .pL-7 { padding-left: 7rem!important }
-
-.dF-R-cc {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.dF-R-sc {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.dF-R-se {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.dF-R-bc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.dF-Rr-cc {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-}
-
-.dF-C-cc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.dF-C-cs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.dF-Cr-cc {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-}
-
-.dF-C-es {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-.dF-C-ss {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.dF-C-sst {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-
-.f-w {
-  flex-wrap: wrap;
-}
 
 // FLEX -----------------------------------------------------------------------
 

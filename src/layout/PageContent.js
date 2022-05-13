@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+
+// Estilos
+import './PageContent.scss';
 
 const PageContent = () => {
   return (
@@ -6,4 +9,4 @@ const PageContent = () => {
   )
 }
 
-export default PageContent
+export default PageContent;
